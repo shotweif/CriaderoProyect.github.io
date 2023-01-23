@@ -41,7 +41,7 @@ a{
     background-color: #c4e4f8;
 }
 /*-----------------*/
-/*-----------------*/
+/*-----------------*
 
 .g-container{
     width: 100%;
@@ -58,7 +58,7 @@ a{
     /*border-radius: 1rem;
     /*margin-left: 4rem;*
     margin-top: 3rem;*
-    margin-bottom: 5rem;*/
+    margin-bottom: 5rem;*
 }
 .margin{
     padding-left: 1rem;
@@ -90,7 +90,7 @@ input[type=button]{
     border: 1px solid #6bb3d4;
     cursor: pointer;
   }
-/*----------------------------*/
+/*----------------------------*
 .view-data-container{
     width: 85%;
     min-height: calc(100vh - 6rem);
@@ -105,11 +105,97 @@ input[type=button]{
     border-radius: 5px;
     box-shadow: 0 0 10px #b8b8b8;
 }
-/*---------------------------------------------------*/
-.pie-pag{
+*/
+/*----------------------------*/
+.gran-container{
     width: 100%;
-    height: 100%;   
+    height: calc(100vh - 7.3rem);
+    background-color: #fff8f3;
     display: flex;
     justify-content: center;
-    align-items: center;
+}
+
+.panel-graficDate, .panel-dashBoard, .panel-dataBase{
+    width: 95%;
+    min-height: 90%;
+    height: 90%;
+    background-color: #434175;
+    margin-top: 3rem;
+    box-shadow: 0 0 7px #313131;
+}
+.panel-graficDate{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.panel-dashBoard{
+    display: none;
+}
+.panel-dataBase{
+    display: none;
+}
+/*------------------*/
+.widget-box{
+    max-width: 21rem;
+    max-height: 21rem;
+    width: 20rem;
+    height: 20rem;
+    background-color: #38375f;
+    margin: 1rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+.widget-Title{
+    margin: 1rem;
+    color: #fff8f3
+}
+.widget-Temperature{
+    transform: rotate(10deg);
+}
+.widget-Humedad{
+    transform: rotate(45deg);
+}
+.widget-Temperature, .widget-Humedad{
+    width: 20rem;
+    height: 20rem;
+    /*background-color: #ff9532;*/
+    margin: auto;
+    border-radius: 50%;   
+    overflow: hidden;
+}
+.widget-Temperature .cont, .widget-Humedad .cont{
+    display: flex;
+    width: 20rem;
+    height: 10rem;
+    
+}
+.p1{
+    background-color: #ff9532;
+}
+.p2{
+    background-color: #3292ff;
+}
+.circle-center{
+    display: flex;
+    width: 15rem;
+    height: 15rem;
+    background-color: #38375f;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+    margin: -17.5rem auto -10rem;
+}
+.telon-inf{
+    display: flex;
+    width: 20rem;
+    height: 10rem;
+    background-color: #38375f;
+    margin: auto;
+    position: relative;
+    margin-top: 2.5rem;
+}
+.marrcador{
+    position: relative;
+    margin-top: -12rem;
+    color: #fff8f3;
 }
